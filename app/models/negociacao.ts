@@ -9,15 +9,15 @@ export class Negociacao{
         this._quantidade = quantidadae;
     }
 
-    get data() {
+    get data(): Date {
        return this._data
     }
 
-    get valor() {
+    get valor(): Number {
       return  this._valor
     }
 
-    get quantidade(){
+    get quantidade(): Number{
        return this._quantidade * this._valor;
     }
 
